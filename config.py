@@ -22,7 +22,7 @@ API_HASH = os.environ.get("API_HASH", "4e984ea35f854762dcde906dce426c2d")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002350569524"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "6808832512, 6259443940,5053815620, 5297903100,6886483871,6331067820, 7339100806,6693143450,6810396528, 6908541951")
+OWNER = os.environ.get("OWNER", "shuke")
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6808832512, 6259443940,5053815620, 5297903100,6886483871,6331067820, 7339100806,6693143450,6810396528, 6908541951"))
@@ -38,7 +38,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002161598191"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002151903452"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "10"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.</b>")
