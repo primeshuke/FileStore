@@ -22,23 +22,23 @@ API_HASH = os.environ.get("API_HASH", "4e984ea35f854762dcde906dce426c2d")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002350569524"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "Shuke, Charz, Ghost, Luffy, Asher, Aryan, Asif, Ryxers")
+OWNER = os.environ.get("OWNER", "6808832512, 6259443940,5053815620, 5297903100,6886483871,6331067820, 7339100806,6693143450,6810396528, 6908541951")
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6259443940,5053815620, 5297903100,6886483871,6331067820, 7339100806,6693143450,6810396528, 6908541951"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6808832512, 6259443940,5053815620, 5297903100,6886483871,6331067820, 7339100806,6693143450,6810396528, 6908541951"))
 
 #Port
 PORT = os.environ.get("PORT", "8030")
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://shukekaran:LMrH18NmlktXYPVE@cluster0.iq68o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002161598191"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002151903452"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "10"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.</b>")
@@ -53,7 +53,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channels/Groups to use me\n\nKindly Please join Channels</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "Do join the channels to get the quality content you have been missing.")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
@@ -65,7 +65,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5189515228)
+ADMINS.append(6808832512)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
